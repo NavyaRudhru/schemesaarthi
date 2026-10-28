@@ -1,0 +1,1 @@
+Seed records are created by `python scripts_seed.py` from `backend/`. The script is idempotent and marks all portal-level records `requires_review`. It intentionally does not assert current scheme-level rules, amounts, or deadlines.
